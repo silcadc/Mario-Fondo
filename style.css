@@ -1,0 +1,167 @@
+body {
+    background-color: aquamarine ;
+}
+
+#piso {
+    position: fixed;
+    background-color: black;
+    width: 2500px;
+    height: 10px;
+    bottom: 0px;
+}
+
+.cuadro {
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+    border: black solid 5px;
+}
+
+.a {
+    position: fixed;
+    left: 5px;
+    bottom: 250px;
+}
+
+.b {
+    position: fixed;
+    left: 110px;
+    bottom: 250px;
+}
+
+.c {
+    position: fixed;
+    left: 310px;
+    top: 250px;
+}
+
+.d {
+    position: fixed;
+    left: 415px;
+    top: 250px;
+}
+
+#sombra {
+    background-color: black;
+    position: fixed;
+    top: 500px;
+    left: 750px;
+    width: 300px;
+    height: 470px;
+    border: 5px black solid;
+    border-radius: 10px;    
+}
+
+#celeste {
+    background-color: skyblue;
+    position: fixed;
+    width: 300px;
+    height: 500px;
+    border: 5px black solid;
+    border-radius: 10px;
+    bottom: 5px;
+    left: 700px;
+}
+
+#somblue {
+    position: absolute;
+    width: 290px;
+    height: 490px;
+    border-right: 5px #0099e6e6 solid;
+    border-bottom: 5px #0099e6 solid;
+    border-radius: 10px;
+    bottom: -1px; 
+    right: 0px;
+}
+
+.tornillo {
+    background-color: skyblue;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 3px black solid;
+    border-radius: 10px;
+}
+
+.uno {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.dos {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.tres {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+.cuatro {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.linea {
+    background-color: black;
+    position: relative;
+    width: 1px;
+    height: 20px;
+    transform: rotate(45deg);
+    border: 1px black solid;
+    left: 9px;
+    bottom: 2px;
+    
+}
+
+#sombrapink {
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    right: 150px;
+    width: 300px;
+    height: 250px;
+    border: 5px black solid;
+    border-radius: 10px;    
+}
+
+#rosa {
+    background-color: pink;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 5px black solid;
+    border-radius: 10px;
+    bottom: -10px; 
+    right: 50px;
+}
+
+#sopink {
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    border-right: 5px  #ff80ff solid;
+    border-bottom: 5px #ff80ff solid;
+    border-radius: 10px;
+    bottom: -1px; 
+    right: 0px;
+}
+
+#verde {
+    background-color: green;
+    position: fixed;    
+    left: 1770px;
+    bottom: 10px;
+    width: 150px;
+    height: 300px;
+    border: 5px black solid;
+    border-radius: 10px;
+    border-top: black  solid 5px;
+    border-bottom: black solid 5px;
+    border-left: black solid 5px;
+}
